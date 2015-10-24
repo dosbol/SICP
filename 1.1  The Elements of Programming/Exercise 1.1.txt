@@ -6,7 +6,7 @@
 (define a 3)						
 (define b (+ a 1))
 (+ a b (* a b))						19
-(= a b)							f
+(= a b)							#f
 (if (and (> b a) (< b (* a b)))				4
     b
     a)
